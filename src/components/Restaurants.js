@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 
 class Restaurants extends Component {
 
-  // debugger
   render() {
 
     let restaurants = this.props.restaurants.map((restaurant, index) => {
